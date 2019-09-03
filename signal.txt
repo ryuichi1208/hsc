@@ -1,0 +1,19 @@
+SIGHUP	 1	Term	制御端末(controlling terminal)のハングアップ検出、
+SIGINT	 2	Term	キーボードからの割り込み (Interrupt)
+SIGQUIT	 3	Core	キーボードによる中止 (Quit)
+SIGILL	 4	Core	不正な命令
+SIGABRT	 6	Core	abort(3) からの中断 (Abort) シグナル
+SIGFPE	 8	Core	浮動小数点例外
+SIGKILL	 9	Term	Kill シグナル
+SIGSEGV	11	Core	不正なメモリー参照
+SIGPIPE	13	Term	パイプ破壊:
+SIGALRM	14	Term	alarm(2) からのタイマーシグナル
+SIGTERM	15	Term	終了 (termination) シグナル
+SIGUSR1	30,10,16	Term	ユーザー定義シグナル 1
+SIGUSR2	31,12,17	Term	ユーザー定義シグナル 2
+SIGCHLD	20,17,18	Ign	子プロセスの一時停止 (stop) または終了
+SIGCONT	19,18,25	Cont	一時停止 (stop) からの再開
+SIGSTOP	17,19,23	Stop	プロセスの一時停止 (stop)
+SIGTSTP	18,20,24	Stop	端末より入力された一時停止 (stop)
+SIGTTIN	21,21,26	Stop	バックグランドプロセスの端末入力
+SIGTTOU	22,22,27	Stop	バックグランドプロセスの端末出力
